@@ -1,0 +1,161 @@
+.blank-div {
+    height: 70px;
+  }
+  
+  .signin-container {
+
+  background-color: var(--white);
+  border: 1px solid var(--accent-light);
+  border-radius: var(--radius-medium);
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 30px;
+  text-align: left;
+  font-family: var(--first-font);
+  }
+  
+  #signin-title {
+    font-family: var(--first-font);
+    font-size: var(--h2-font-size);
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .signin-input {
+    border: 0.5px solid var(--chicago);
+    border-radius: var(--radius-small);
+    font-size: var(--h3-font-size);
+    margin-bottom: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  label {
+    color: var(--chicago);
+    display: block;
+    font-size: var(--normal-font-size);
+    font-weight: bold;
+    margin-bottom: 1px;
+    text-align: left;
+    margin-top: 23px;
+  }
+  
+  .button-signin {
+    background-color: var(--primary);
+    border: none;
+    border-radius: var(--radius-small);
+    color: var(--white);
+    cursor: pointer;
+    font-size: var(--normal-font-size);
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    text-transform: inherit;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: var(--chicago);
+    color: var(--white);
+  }
+  
+
+
+  .forget-signup-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #forget-password-link,
+  #signup-link,
+  p {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: var(--smaller-font-size);
+    text-align: center;
+  }
+  
+  #forget-password-link:hover,
+  #signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.5;
+    margin-top: 20px;
+  }
+  
+  .hr-text:before {
+    content: "";
+    background: var(--dawn);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 0.5px;
+  }
+  
+  .hr-text:before {
+    content: "";
+    background: var(--dawn);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 0.5px;
+    z-index: -1;
+  }
+  
+  .hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: var(--chicago);
+    background-color: var(--white);
+    font-family: var(--second-font);
+    font-size: var(--normal-font-size);
+    font-weight: normal;
+  }
+  
+   /* Media queries */
+ @media (max-width: 767px) {
+    .signup-container {
+      padding: 20px;
+    }
+  
+    #signup-title {
+      font-size: var(--h2-font-size);
+    }
+  
+    #description-1 {
+        font-size: var(--h3-font-size);
+    }
+  
+  .signup-input {
+  width: 100%;
+  }
+  
+  #signup-google-button {
+  width: 100%;
+  margin-bottom: 20px;
+  }
+  
+  #signup-button {
+  width: 100%;
+  }
+  }

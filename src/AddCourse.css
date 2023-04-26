@@ -1,0 +1,47 @@
+.instructor-header-content {
+   font-family: var(--first-font);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    padding: 60px 40px;
+    box-shadow: 0 8px 24px hsla(210,8%,62%,.2);
+    border-radius: 8px;
+    width: 97%;
+    margin: 200px 20px 70px 20px;
+    border: 1px  solid #dee2e6!important;
+  }
+  
+  .instructor-header-content div {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .instructor-header-content button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 250px;
+    height: 3rem;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    box-shadow: none;
+    transition: all 0.3s ease;
+  }
+
+  .instructor-header-content button i{
+    margin-right: 10px;
+  }
+
+  
+  .instructor-header-content button:hover {
+    opacity: 0.8;
+  }
+  
